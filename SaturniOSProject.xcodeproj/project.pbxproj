@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F37FCD06E43AB47803B9E8 /* Pods_SaturniOSProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF5B3F566DACF783C1875A /* Pods_SaturniOSProjectTests.framework */; };
+		620CFE37F7B384690B0EB114 /* Pods_SaturniOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0361DC69B332A0EA06C24 /* Pods_SaturniOSProject.framework */; };
+		D55D077E24BD0D9F001B61F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55D077D24BD0D9F001B61F5 /* AppDelegate.swift */; };
+		D55D078024BD0D9F001B61F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55D077F24BD0D9F001B61F5 /* SceneDelegate.swift */; };
+		D55D078224BD0D9F001B61F5 /* SaturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55D078124BD0D9F001B61F5 /* SaturnViewController.swift */; };
+		D55D078524BD0D9F001B61F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55D078324BD0D9F001B61F5 /* Main.storyboard */; };
+		D55D078724BD0DA1001B61F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55D078624BD0DA1001B61F5 /* Assets.xcassets */; };
+		D55D078A24BD0DA1001B61F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55D078824BD0DA1001B61F5 /* LaunchScreen.storyboard */; };
+		D55D079524BD0DA1001B61F5 /* SaturniOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55D079424BD0DA1001B61F5 /* SaturniOSProjectTests.swift */; };
+		D57F828124BD11D800C31A12 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828024BD11D800C31A12 /* NoteViewController.swift */; };
+		D57F828324BD129100C31A12 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828224BD129100C31A12 /* NoteCell.swift */; };
+		D57F828524BD1C4B00C31A12 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828424BD1C4B00C31A12 /* Note.swift */; };
+		D57F828724BD1CD600C31A12 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828624BD1CD600C31A12 /* DataManager.swift */; };
+		D57F828924BD1CE500C31A12 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828824BD1CE500C31A12 /* CacheManager.swift */; };
+		D57F828B24BD1CF100C31A12 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F828A24BD1CF100C31A12 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D55D079124BD0DA1001B61F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55D077224BD0D9E001B61F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55D077924BD0D9F001B61F5;
+			remoteInfo = SaturniOSProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A7F697B88C6EFEBF4840580 /* Pods-SaturniOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturniOSProject.debug.xcconfig"; path = "Target Support Files/Pods-SaturniOSProject/Pods-SaturniOSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB232474DBE744669A34673 /* Pods-SaturniOSProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturniOSProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SaturniOSProjectTests/Pods-SaturniOSProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA0361DC69B332A0EA06C24 /* Pods_SaturniOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaturniOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6389EE29D4263024670D3D6C /* Pods-SaturniOSProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturniOSProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SaturniOSProjectTests/Pods-SaturniOSProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		83FF5B3F566DACF783C1875A /* Pods_SaturniOSProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaturniOSProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		912DCB9693B80A651331881B /* Pods-SaturniOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturniOSProject.release.xcconfig"; path = "Target Support Files/Pods-SaturniOSProject/Pods-SaturniOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		D55D077A24BD0D9F001B61F5 /* SaturniOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaturniOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55D077D24BD0D9F001B61F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D55D077F24BD0D9F001B61F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D55D078124BD0D9F001B61F5 /* SaturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnViewController.swift; sourceTree = "<group>"; };
+		D55D078424BD0D9F001B61F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D55D078624BD0DA1001B61F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D55D078924BD0DA1001B61F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D55D078B24BD0DA1001B61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55D079024BD0DA1001B61F5 /* SaturniOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaturniOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55D079424BD0DA1001B61F5 /* SaturniOSProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturniOSProjectTests.swift; sourceTree = "<group>"; };
+		D55D079624BD0DA1001B61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57F828024BD11D800C31A12 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		D57F828224BD129100C31A12 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		D57F828424BD1C4B00C31A12 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D57F828624BD1CD600C31A12 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D57F828824BD1CE500C31A12 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		D57F828A24BD1CF100C31A12 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55D077724BD0D9F001B61F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620CFE37F7B384690B0EB114 /* Pods_SaturniOSProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55D078D24BD0DA1001B61F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F37FCD06E43AB47803B9E8 /* Pods_SaturniOSProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2971609E76238ED4563A5758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F697B88C6EFEBF4840580 /* Pods-SaturniOSProject.debug.xcconfig */,
+				912DCB9693B80A651331881B /* Pods-SaturniOSProject.release.xcconfig */,
+				3FB232474DBE744669A34673 /* Pods-SaturniOSProjectTests.debug.xcconfig */,
+				6389EE29D4263024670D3D6C /* Pods-SaturniOSProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94CD74D7B5051E7E7DE44838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0361DC69B332A0EA06C24 /* Pods_SaturniOSProject.framework */,
+				83FF5B3F566DACF783C1875A /* Pods_SaturniOSProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D55D077124BD0D9E001B61F5 = {
+			isa = PBXGroup;
+			children = (
+				D55D077C24BD0D9F001B61F5 /* SaturniOSProject */,
+				D55D079324BD0DA1001B61F5 /* SaturniOSProjectTests */,
+				D55D077B24BD0D9F001B61F5 /* Products */,
+				2971609E76238ED4563A5758 /* Pods */,
+				94CD74D7B5051E7E7DE44838 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D55D077B24BD0D9F001B61F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55D077A24BD0D9F001B61F5 /* SaturniOSProject.app */,
+				D55D079024BD0DA1001B61F5 /* SaturniOSProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D55D077C24BD0D9F001B61F5 /* SaturniOSProject */ = {
+			isa = PBXGroup;
+			children = (
+				D55D077D24BD0D9F001B61F5 /* AppDelegate.swift */,
+				D55D077F24BD0D9F001B61F5 /* SceneDelegate.swift */,
+				D57F828E24BD1D1500C31A12 /* ViewControllers */,
+				D57F828F24BD1D2500C31A12 /* Views */,
+				D57F828D24BD1D0500C31A12 /* Models */,
+				D57F828C24BD1CF600C31A12 /* Managers */,
+				D55D078324BD0D9F001B61F5 /* Main.storyboard */,
+				D55D078624BD0DA1001B61F5 /* Assets.xcassets */,
+				D55D078824BD0DA1001B61F5 /* LaunchScreen.storyboard */,
+				D55D078B24BD0DA1001B61F5 /* Info.plist */,
+			);
+			path = SaturniOSProject;
+			sourceTree = "<group>";
+		};
+		D55D079324BD0DA1001B61F5 /* SaturniOSProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D55D079424BD0DA1001B61F5 /* SaturniOSProjectTests.swift */,
+				D55D079624BD0DA1001B61F5 /* Info.plist */,
+			);
+			path = SaturniOSProjectTests;
+			sourceTree = "<group>";
+		};
+		D57F828C24BD1CF600C31A12 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D57F828624BD1CD600C31A12 /* DataManager.swift */,
+				D57F828824BD1CE500C31A12 /* CacheManager.swift */,
+				D57F828A24BD1CF100C31A12 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D57F828D24BD1D0500C31A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D57F828424BD1C4B00C31A12 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D57F828E24BD1D1500C31A12 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D55D078124BD0D9F001B61F5 /* SaturnViewController.swift */,
+				D57F828024BD11D800C31A12 /* NoteViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D57F828F24BD1D2500C31A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D57F828224BD129100C31A12 /* NoteCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D55D077924BD0D9F001B61F5 /* SaturniOSProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55D079924BD0DA1001B61F5 /* Build configuration list for PBXNativeTarget "SaturniOSProject" */;
+			buildPhases = (
+				A6CE706E0872B121FC62DA0D /* [CP] Check Pods Manifest.lock */,
+				D55D077624BD0D9F001B61F5 /* Sources */,
+				D55D077724BD0D9F001B61F5 /* Frameworks */,
+				D55D077824BD0D9F001B61F5 /* Resources */,
+				FB65CB6B703649EE066EFCC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaturniOSProject;
+			productName = SaturniOSProject;
+			productReference = D55D077A24BD0D9F001B61F5 /* SaturniOSProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D55D078F24BD0DA1001B61F5 /* SaturniOSProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55D079C24BD0DA1001B61F5 /* Build configuration list for PBXNativeTarget "SaturniOSProjectTests" */;
+			buildPhases = (
+				182CB950949AC92540F6D5AE /* [CP] Check Pods Manifest.lock */,
+				D55D078C24BD0DA1001B61F5 /* Sources */,
+				D55D078D24BD0DA1001B61F5 /* Frameworks */,
+				D55D078E24BD0DA1001B61F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55D079224BD0DA1001B61F5 /* PBXTargetDependency */,
+			);
+			name = SaturniOSProjectTests;
+			productName = SaturniOSProjectTests;
+			productReference = D55D079024BD0DA1001B61F5 /* SaturniOSProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55D077224BD0D9E001B61F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Observatory;
+				TargetAttributes = {
+					D55D077924BD0D9F001B61F5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D55D078F24BD0DA1001B61F5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D55D077924BD0D9F001B61F5;
+					};
+				};
+			};
+			buildConfigurationList = D55D077524BD0D9E001B61F5 /* Build configuration list for PBXProject "SaturniOSProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D55D077124BD0D9E001B61F5;
+			productRefGroup = D55D077B24BD0D9F001B61F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55D077924BD0D9F001B61F5 /* SaturniOSProject */,
+				D55D078F24BD0DA1001B61F5 /* SaturniOSProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D55D077824BD0D9F001B61F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55D078A24BD0DA1001B61F5 /* LaunchScreen.storyboard in Resources */,
+				D55D078724BD0DA1001B61F5 /* Assets.xcassets in Resources */,
+				D55D078524BD0D9F001B61F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55D078E24BD0DA1001B61F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182CB950949AC92540F6D5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaturniOSProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CE706E0872B121FC62DA0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaturniOSProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB65CB6B703649EE066EFCC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaturniOSProject/Pods-SaturniOSProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaturniOSProject/Pods-SaturniOSProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaturniOSProject/Pods-SaturniOSProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55D077624BD0D9F001B61F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57F828B24BD1CF100C31A12 /* NetworkManager.swift in Sources */,
+				D57F828124BD11D800C31A12 /* NoteViewController.swift in Sources */,
+				D55D078224BD0D9F001B61F5 /* SaturnViewController.swift in Sources */,
+				D55D077E24BD0D9F001B61F5 /* AppDelegate.swift in Sources */,
+				D57F828724BD1CD600C31A12 /* DataManager.swift in Sources */,
+				D57F828924BD1CE500C31A12 /* CacheManager.swift in Sources */,
+				D57F828324BD129100C31A12 /* NoteCell.swift in Sources */,
+				D55D078024BD0D9F001B61F5 /* SceneDelegate.swift in Sources */,
+				D57F828524BD1C4B00C31A12 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55D078C24BD0DA1001B61F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55D079524BD0DA1001B61F5 /* SaturniOSProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D55D079224BD0DA1001B61F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55D077924BD0D9F001B61F5 /* SaturniOSProject */;
+			targetProxy = D55D079124BD0DA1001B61F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D55D078324BD0D9F001B61F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55D078424BD0D9F001B61F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D55D078824BD0DA1001B61F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55D078924BD0DA1001B61F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D55D079724BD0DA1001B61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D55D079824BD0DA1001B61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D55D079A24BD0DA1001B61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7F697B88C6EFEBF4840580 /* Pods-SaturniOSProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = SaturniOSProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Observatory.SaturniOSProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D55D079B24BD0DA1001B61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912DCB9693B80A651331881B /* Pods-SaturniOSProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = SaturniOSProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Observatory.SaturniOSProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D55D079D24BD0DA1001B61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB232474DBE744669A34673 /* Pods-SaturniOSProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = SaturniOSProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Observatory.SaturniOSProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaturniOSProject.app/SaturniOSProject";
+			};
+			name = Debug;
+		};
+		D55D079E24BD0DA1001B61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6389EE29D4263024670D3D6C /* Pods-SaturniOSProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = SaturniOSProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Observatory.SaturniOSProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaturniOSProject.app/SaturniOSProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55D077524BD0D9E001B61F5 /* Build configuration list for PBXProject "SaturniOSProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55D079724BD0DA1001B61F5 /* Debug */,
+				D55D079824BD0DA1001B61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55D079924BD0DA1001B61F5 /* Build configuration list for PBXNativeTarget "SaturniOSProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55D079A24BD0DA1001B61F5 /* Debug */,
+				D55D079B24BD0DA1001B61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55D079C24BD0DA1001B61F5 /* Build configuration list for PBXNativeTarget "SaturniOSProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55D079D24BD0DA1001B61F5 /* Debug */,
+				D55D079E24BD0DA1001B61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D55D077224BD0D9E001B61F5 /* Project object */;
+}
